@@ -89,6 +89,10 @@ hr {
     text-decoration: underline;
 }
 
+.footer-center {
+    font-size: 1.5em;
+}
+
 .footer-right {
     text-align: right; /* Align footer links to the right */
     margin-top: 20px;
