@@ -7,9 +7,9 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 20px; /* Add padding to avoid content touching the edges on small screens */
-    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
-    overflow: auto; /* Allow scrolling on smaller screens */
+    padding: 20px; 
+    box-sizing: border-box; 
+    overflow: auto;
 }
 
 .container {
@@ -17,19 +17,19 @@ body {
     border: 2px solid #00ff00;
     padding: 20px;
     border-radius: 10px;
-    width: 100%; /* Make container width 100% */
-    max-width: 600px; /* Limit the maximum width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    overflow: auto; /* Allow scrolling within the container */
+    width: 100%; 
+    max-width: 600px; 
+    box-sizing: border-box; 
+    overflow: auto; 
 }
 
 .container ul {
-    text-align: left; /* Ensure list items are left-aligned */
-    padding-left: 20px; /* Optional: Add padding to indent the list */
+    text-align: left;
+    padding-left: 20px; 
 }
 
 .container ul li {
-    text-align: left; /* Ensure list items are left-aligned */
+    text-align: left;
 }
 
 .title {
@@ -65,24 +65,24 @@ body {
 
 .scenario-text {
     margin-bottom: 20px;
-    text-align: left; /* Align text to the left for better readability */
+    text-align: left;
 }
 
 hr {
-    border: 1px solid #00ff00; /* Match the color of the box */
-    width: 100%; /* Optional: Adjust the width as needed */
+    border: 1px solid #00ff00; 
+    width: 100%; 
 }
 
 .footer {
     margin-top: 20px;
-    text-align: left; /* Align footer links to the left */
+    text-align: left; 
 }
 
 .footer-link {
     color: #00ff00;
     text-decoration: none;
-    display: block; /* Ensure links are displayed one below the other */
-    margin: 5px 0; /* Add margin for spacing */
+    display: block; 
+    margin: 5px 0; 
 }
 
 .footer-link:hover {
@@ -94,29 +94,29 @@ hr {
 }
 
 .footer-right {
-    text-align: right; /* Align footer links to the right */
+    text-align: right; 
     margin-top: 20px;
 }
 
 /* Media Queries for Responsive Design */
 @media (max-width: 600px) {
     body {
-        padding: 10px; /* Reduce padding for smaller screens */
+        padding: 10px;
     }
 
     .title {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
+        font-size: 1.5em;
     }
 
     .explore-btn {
-        padding: 8px 16px; /* Adjust button padding for smaller screens */
+        padding: 8px 16px;
     }
 
     .scenario-text {
-        font-size: 0.9em; /* Adjust text size for better readability on smaller screens */
+        font-size: 0.9em;
     }
 
     .footer-link {
-        font-size: 0.8em; /* Adjust font size for smaller screens */
+        font-size: 0.8em;
     }
 }
